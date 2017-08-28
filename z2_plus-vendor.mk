@@ -672,7 +672,14 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/usr/idc/usf_tsc_ptr.idc:system/usr/idc/usf_tsc_ptr.idc \
     vendor/zuk/z2_plus/proprietary/usr/idc/usf_tsc.idc:system/usr/idc/usf_tsc.idc \
     vendor/zuk/z2_plus/proprietary/usr/idc/usf_tsc_ext.idc:system/usr/idc/usf_tsc_ext.idc \
-
+    vendor/zuk/z2_plus/proprietary/bin/ifaad:system/bin/ifaad \
+    vendor/zuk/z2_plus/proprietary/lib/libifaa_daemon.so:system/lib/libifaa_daemon.so \
+    vendor/zuk/z2_plus/proprietary/lib/libifaa_jni.so:system/lib/libifaa_jni.so \
+    vendor/zuk/z2_plus/proprietary/lib64/lib_ifaa_tac.so:system/lib64/lib_ifaa_tac.so \
+    vendor/zuk/z2_plus/proprietary/lib64/libifaa_daemon.so:system/lib64/libifaa_daemon.so \
+	vendor/zuk/z2_plus/proprietary/lib64/libifaa_jni.so:system/lib64/libifaa_jni.so \
+	vendor/zuk/z2_plus/proprietary/media/bootanimation.zip:system/media/bootanimation.zip 
+	
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libtime_genoff \
